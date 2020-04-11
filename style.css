@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background-color: #3fbf3f;
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+}
+
+p.navbar {
+	background-color: #3fbf3f;
+	color: #000000;
+}
+
+li {
+	float: left;
+}
+
+.navbar {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 8px 8px;
+	text-decoration: none;
+	font-size: 24pt;
+}
+
+.nopad {
+	padding: 0 !important;
+}
+
+li a:hover {
+	background-color: #3AF;
+}
+
+#title {
+	color: #ddd;
+	position: absolute;
+	font-size: 100pt;
+	top: 10%;
+	left: 5%;
+}
+
+#content {
+	flex: 1 0 auto;
+}
+
+#footer {
+	flex-shrink: 0;
+	height: 64px;
+	flex-direction: column;
+}
+
+.verti-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.z1 {
+	z-index: 1;
+}
+
+.z2 {
+	z-index: 2;
+}
+
+.z3 {
+	z-index: 3;
+}
+
+.z4 {
+	z-index: 4;
+}
+
+.z5 {
+	z-index: 5;
+}
+
+.animate-scroll-in-right {
+	position:relative;
+	animation:animateright 1s;
+}
+
+@keyframes animateright {
+	from {
+	right:-100%;
+}
+ to {
+	right:0;
+}
+
+}
+
+.bio-img {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	text-align: right;
+	color: #000000 !important;
+}
+
+#ethan * {
+	color: #007f7f;
+	font-family: "Liberation Mono", "Aatrix OCRA", "OCR A Extended", monospace;
+}
+
+#erin * {
+	color: #7f00ff;
+	font-family: "English 111 Vivace BT", "English111 Vivace BT", "Segoe Script", cursive;
+}
+
+#anon * {
+	color: #005fff;
+	font-family: "Liberation Serif", "Georgia", "Times New Roman", serif;
+}
