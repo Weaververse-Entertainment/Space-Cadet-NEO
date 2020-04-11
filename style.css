@@ -52,19 +52,7 @@ li a:hover {
 	left: 5%;
 }
 
-/*#content {
-	flex: 1 0 auto;
-}*/
-
-#footer {
-	display: flex;
-	flex-shrink: 0;
-	height: 64px;
-	flex-direction: column;
-}
-
 .verti-center {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -102,27 +90,4 @@ li a:hover {
 	right:0;
 }
 
-}
-
-.bio-img {
-	display: flex;
-	flex-direction: column;
-	float: right;
-	text-align: right;
-	color: #000000 !important;
-}
-
-#ethan * {
-	color: #007f7f;
-	font-family: "Liberation Mono", "Aatrix OCRA", "OCR A Extended", monospace;
-}
-
-#erin * {
-	color: #7f00ff;
-	font-family: "English 111 Vivace BT", "English111 Vivace BT", "Segoe Script", cursive;
-}
-
-#anon * {
-	color: #005fff;
-	font-family: "Liberation Serif", "Georgia", "Times New Roman", serif;
 }
