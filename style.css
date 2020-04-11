@@ -8,9 +8,10 @@ body, html {
 }
 
 body {
-	background-color: #3fbf3f;
+	background-color: black;
+	color: white;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 #navbar {
@@ -20,8 +21,8 @@ body {
 }
 
 p.navbar {
-	background-color: #3fbf3f;
-	color: #000000;
+	background-color: black;
+	color: white;
 }
 
 li {
