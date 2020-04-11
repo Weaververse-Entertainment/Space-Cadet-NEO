@@ -10,8 +10,6 @@ body, html {
 body {
 	background-color: black;
 	color: white;
-	display: flex;
-	flex-direction: row;
 }
 
 #navbar {
@@ -54,11 +52,12 @@ li a:hover {
 	left: 5%;
 }
 
-#content {
+/*#content {
 	flex: 1 0 auto;
-}
+}*/
 
 #footer {
+	display: flex;
 	flex-shrink: 0;
 	height: 64px;
 	flex-direction: column;
